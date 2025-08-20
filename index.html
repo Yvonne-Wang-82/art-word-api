@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+  Name: Yvonne Wang
+  Date: 10/30/2024
+  Section: CSE 154 AA
+  Description: This is the index.html page for my Guess the Art! page for C3.
+  It contains an area that will generate random artworks when requested, a box
+  for users to guess the name of the art, and a hint button that will generate
+  a description of a random word in the name of the art as a hint.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Guess the Art!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oldenburg&family=Sixtyfour+Convergence&display=swap"
+    rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Guess the Art!</h1>
+      <p>Hit "Start" for a piece of art and answer its name.</p>
+      <p>Get hints for the definition of a random word in its name.</p>
+    </header>
+    <main>
+      <button id="start-btn">Start!</button>
+      <div id="img-box"></div>
+      <section id="enter-answer" class="hidden">
+        <div><input type="text" placeholder="Enter your answer here"></div>
+        <div id="result-message-box"></div>
+        <div><button id="hint-btn">Hint</button></div>
+        <article></article>
+      </section>
+    </main>
+    <footer>
+      <p>API sources:
+        <a href="https://api.artic.edu/docs/">Institute of Chicago API</a>
+        &amp;
+        <a href="https://dictionaryapi.dev/">Free Dictionary API</a>
+      </p>
+    </footer>
+  </body>
+</html>
