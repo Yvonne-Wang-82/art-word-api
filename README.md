@@ -7,7 +7,7 @@ This project is a webpage that generates a random artwork for the users to guess
 [Free Dictionary API](https://dictionaryapi.dev/) 
 
 ## Try It Out
-[Click here to Guest the Art!](https://Yvonne-Wang-82.github.io/art-word-api/)
+[Click here to Guest the Art!](https://Yvonne-Wang-82.github.io/art-word-api/) (copy and paste in new tab to open seperately)
 
 ## Take a Peek
 ![Screenshot of Guess the Art!](assests/screenshot.png)
